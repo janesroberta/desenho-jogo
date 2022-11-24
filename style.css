@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+canvas{
+    border: 2px solid rgb(130, 22, 219);
+}
+
+.toolbox{
+    background-color: rgb(130, 22, 219);
+    border: 1px solid rgb(130, 22, 219);
+    display: flex;
+    padding: 1rem;
+    width: 505px;
+}
+
+.toolbox > *{
+    background-color: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: .25rem;
+    margin: .25rem;
+    height: 45px;
+    width: 50px;
+}
+
+.toolbox > *:last-child{
+    margin-left: auto;
+}
